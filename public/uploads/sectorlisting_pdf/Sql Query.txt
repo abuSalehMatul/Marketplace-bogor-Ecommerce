@@ -1,0 +1,3 @@
+Dump Data Same tabel
+
+INSERT INTO newquestions (paper_set_id, questions, a,b,c,d,answers) SELECT '9', questions, a,b,c,d,answers FROM newquestions WHERE paper_set_id = '12'
